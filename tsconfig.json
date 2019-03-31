@@ -12,7 +12,12 @@
       "es7",
       "es2018",
       "es2015.promise"
-    ]
+    ],
+    "paths": {
+      "@dataSource": [
+        "./src/app/@dataSource"
+      ]
+    }
   },
   "include": [
     "./src/*"

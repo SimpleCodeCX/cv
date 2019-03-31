@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "art-template": "^4.13.2",
+    "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
     "fullpage.js": "^2.9.6",
     "jquery": "^3.3.1",
