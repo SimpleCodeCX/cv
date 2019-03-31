@@ -22,17 +22,17 @@
             <li><a >ts</a>: 熟悉 typescript 面向对象思想</li>
             <li>使用轻量级前端模板引擎: art-template</li>
             <li>
-              <a href="./static/pdf/CV.pdf">性能优化</a>: 配置 nginx 缓存策略
-              <div>1) 设置css、js以及图片等资源的cache-control</div>
-              <div>2) 对css、js以及json等文本资源进行gzip压缩</div>
-              <div>3) 通过http_accept判断浏览器是否支持webp,若支持,将返回webp格式的图片</div>
+              <a href="./static/pdf/CV.pdf">性能优化</a>: 配置 nginx 性能优化策略如下:
+              <div>1) 对 css、js 以及图片等资源, 配置 cache-control max-age 为长缓存</div>
+              <div>2) 对 css、js 以及 json 等文本资源进行gzip压缩</div>
+              <div>3) 对于图片资源,通过 http_accept 判断浏览器是否支持 webp ,若支持,则返回 webp 格式的图片</div>
             </li>
-            <li><a href="./static/pdf/CV.pdf">后端开发</a>: 有后端开发及数据库设计能力,本简历后端采用 nodejs koa2 (熟悉koa2源码以及中间件思想)
-              <div>设计 resful api 接口以及相关中间件,定制统一接口规范以及统一出错处理,单元测试等</div>
+            <li><a href="./static/pdf/CV.pdf">后端开发</a>: 有后端开发和部署能力,本简历后端采用 nodejs koa2 (阅读过koa2源码)
+              <div>实现 resful api 接口设计、koa2 中间件设计,定制统一接口规范以及统一出错处理,单元测试等</div>
             </li>
             <li>
-              <a href="./static/pdf/CV.pdf">docker部署</a>: 有 linux 部署能力,熟悉 linux 命令,本项目部署于 centos7,前端通过 docker + nginx 进行部署,后端通过 docker + node 进行部署。
-              并搭建了 nexus docker 私服,并将镜像备份于私服下,好处在于提高部署效率、方便版本恢复以及部署迁移。
+              <a href="./static/pdf/CV.pdf">docker部署</a>: 熟悉 linux shell 命令,有 linux 部署能力,本项目部署于 centos7,前端通过 docker + nginx 进行部署,后端通过 docker + node 进行部署。
+               <div>搭建了 nexus docker 私服,并将镜像备份于私服下,好处在于提高部署效率、方便版本恢复以及部署迁移。</div>
             </li>
           </ul>
 
@@ -44,15 +44,15 @@
             <li><a >ts</a>: 熟悉 typescript 面向对象思想</li>
             <li>使用轻量级前端模板引擎: art-template</li>
             <li>
-              <a href="./static/pdf/CV.pdf">性能优化</a>: 配置 nginx 缓存策略,对静态资源设置缓存,对文本进行gzip压缩,检测浏览器是否支持webp,若支持,将图片替换成webp
+              <a href="./static/pdf/CV.pdf">性能优化</a>: 配置 nginx 性能优化策略: 对静态资源设置长缓存,对文本资源进行gzip压缩,对于图片资源,检测浏览器是否支持webp,若支持,将返回图片的webp格式
             </li>
             <li><a href="./static/pdf/CV.pdf">docker部署</a>: 通过 docker + nginx 部署,并将镜像备份于 nexus docker 私服,好处在于提高部署效率、方便版本恢复以及部署迁移</li>
-            <li><a href="./static/pdf/CV.pdf">后端开发</a>: 有后端开发及数据库设计能力,本简历后端采用 nodejs koa2 (熟悉koa2源码以及中间件思想)
-              <div>设计 resful api 接口以及相关中间件,定制统一接口规范以及统一出错处理,对接口进行单元测试等</div>
+            <li><a href="./static/pdf/CV.pdf">后端开发</a>: 有后端开发和部署能力,本简历后端采用 nodejs koa2 (阅读过koa2源码)
+              <div>实现 resful api 接口设计、koa2 中间件设计,定制统一接口规范以及统一出错处理,单元测试等</div>
             </li>
             <li>
-              <a href="./static/pdf/CV.pdf">docker部署</a>: 有 linux 部署能力,熟悉 linux 命令,本项目部署于 centos7,前端通过 docker + nginx 进行部署,后端通过 docker + node 进行部署。
-              并搭建了 nexus docker 私服,并将镜像备份于私服下,好处在于提高部署效率、方便版本恢复以及部署迁移。
+              <a href="./static/pdf/CV.pdf">docker部署</a>: 熟悉 linux shell 命令,有 linux 部署能力,本项目部署于 centos7,前端通过 docker + nginx 进行部署,后端通过 docker + node 进行部署。
+              搭建了 nexus docker 私服,并将镜像备份于私服下,好处在于提高部署效率、方便版本恢复以及部署迁移。
             </li>
           </ul>
           

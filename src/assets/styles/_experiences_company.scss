@@ -1,6 +1,10 @@
 .experiences_company {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 2.3rem;
+  }
   .works {
     display: inline-block;
     padding-left: 0.83rem;
@@ -13,9 +17,6 @@
     padding-left: 1.67rem;
     padding-right: 1rem;
     padding-bottom: 0.5rem;
-    .big-screen {
-      display: block;
-    }
     .target-border {
       position: absolute;
       top: -0.25rem;
@@ -50,13 +51,19 @@
     .time {
       display: block;
       font-size: 0.5rem;
-      margin-top: 0.2rem;
+      margin-top: 0.1rem;
       color: $outer_space;
     }
     .tech-list {
-      margin-top: 0.2rem;
+      margin-top: 0.1rem;
       font-size: 0.6rem;
       color: $taupe_gray;
+    }
+    .big-screen {
+      display: block;
+    }
+    .small-screen {
+      display: none;
     }
     .description {
       list-style: initial;
@@ -66,22 +73,27 @@
       line-height: 0.8rem;
       color: #000;
       li {
-        margin-top: 5px;
+        margin-top: 2px;
         div {
-          margin-top: 5px;
+          margin-top: 2px;
         }
         span {
           font-weight: bold;
           color: black;
         }
+        .ul-list {
+          list-style: initial;
+          padding-left: 1rem;
+          color: #000;
+        }
       }
     }
     .div-black {
-      margin-top: 0.6rem;
+      margin-top: 0.3rem;
     }
   }
 
-  @media screen and (max-width: $screen-phone) {
+  @media screen and (max-width: $screen-tablet) {
     .work {
       position: relative;
       border-left: none;
@@ -104,6 +116,9 @@
       }
       .big-screen {
         display: none;
+      }
+      .small-screen {
+        display: block;
       }
       .description {
         li {
