@@ -1,0 +1,10 @@
+    <h1>专业技能</h1>
+      <div class="div-f12">F12 + F5 查看详情哦</div>
+      <div class="skill-container">
+        <div>
+          {{each skillList}}
+         <span>{{$value}}</span>
+          {{/each}}
+        </div>
+      </div>
+     

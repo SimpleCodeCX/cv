@@ -1,0 +1,29 @@
+@media screen and (max-width: $screen-phone) {
+  html {
+    font-size: 1rem;
+  }
+  h1 {
+    margin-bottom: 0.6rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: $screen-phone + 1) and (max-width: $screen-tablet - 1) {
+  html {
+    font-size: 1.25rem;
+  }
+  h1 {
+    margin-bottom: 0.8rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: $screen-tablet) {
+  html {
+    font-size: 1.5rem;
+  }
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+}

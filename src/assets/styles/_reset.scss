@@ -1,0 +1,45 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+a,
+em,
+img,
+small,
+strong,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+time {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-family: monospace, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑",
+    sans-serif;
+  line-height: 1.15;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: $independence;
+}

@@ -1,0 +1,123 @@
+.experiences_company {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  .works {
+    display: inline-block;
+    padding-left: 0.83rem;
+    text-align: left;
+  }
+  .work {
+    position: relative;
+    border-bottom: 1px dotted $independence;
+    border-left: solid $independence 0.25rem;
+    padding-left: 1.67rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    .big-screen {
+      display: block;
+    }
+    .target-border {
+      position: absolute;
+      top: -0.25rem;
+      left: -1.21rem;
+      width: 1.67rem;
+      height: 1.67rem;
+      background-color: $independence;
+      border: 0.25rem solid $baby_powder;
+      border-radius: 0.1%;
+      transform: rotate(45deg);
+      .target-dot {
+        width: 0.25rem;
+        height: 0.25rem;
+        border: 0.46rem solid $baby_powder;
+        border-radius: 50%;
+        margin: 0.25rem;
+      }
+    }
+    .company {
+      font-size: 1rem;
+      font-weight: bold;
+      color: $outer_space;
+      min-height: 1.67rem;
+      line-height: 1.67rem;
+    }
+    .job {
+      display: inline-block;
+      font-size: 0.67rem;
+      line-height: normal;
+      color: $roman_silver;
+    }
+    .time {
+      display: block;
+      font-size: 0.5rem;
+      margin-top: 0.2rem;
+      color: $outer_space;
+    }
+    .tech-list {
+      margin-top: 0.2rem;
+      font-size: 0.6rem;
+      color: $taupe_gray;
+    }
+    .description {
+      list-style: initial;
+      margin-top: 0.4rem;
+      padding-left: 1rem;
+      font-size: 0.6rem;
+      line-height: 0.8rem;
+      color: #000;
+      li {
+        margin-top: 5px;
+        div {
+          margin-top: 5px;
+        }
+        span {
+          font-weight: bold;
+          color: black;
+        }
+      }
+    }
+    .div-black {
+      margin-top: 0.6rem;
+    }
+  }
+
+  @media screen and (max-width: $screen-phone) {
+    .work {
+      position: relative;
+      border-left: none;
+      padding-left: 0;
+      .small-screen {
+        display: block;
+      }
+      .target-border {
+        display: none;
+      }
+      .company {
+        &::before {
+          position: absolute;
+          left: -1.2rem;
+          content: "-";
+        }
+      }
+      .time {
+        margin-top: 0.1rem;
+      }
+      .big-screen {
+        display: none;
+      }
+      .description {
+        li {
+          font-size: 0.8rem;
+          margin-top: 0.1rem;
+          line-height: 1rem;
+          div {
+            margin-top: 0.05rem;
+          }
+        }
+      }
+      .div-black {
+        margin-top: 0.3rem;
+      }
+    }
+  }
+}

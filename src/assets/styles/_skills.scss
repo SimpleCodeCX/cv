@@ -1,0 +1,26 @@
+.skills {
+  .div-f12 {
+    display: none;
+  }
+  .skill-container {
+    display: inline-block;
+    max-width: 80%;
+    text-align: left;
+  }
+  span {
+    display: inline-block;
+    margin: 0.125rem;
+    padding: 0.375rem;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 0.25rem;
+    background-color: $roman_silver;
+  }
+
+  @media screen and (min-width: $screen-tablet) {
+    .div-f12 {
+      display: block;
+      margin-bottom: 1rem;
+    }
+  }
+}

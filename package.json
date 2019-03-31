@@ -1,0 +1,45 @@
+{
+  "name": "simple_cv",
+  "version": "1.0.0",
+  "description": "Simple CV",
+  "scripts": {
+    "dev": "webpack-dev-server --open --inline --progress --config build/webpack.dev.conf.js",
+    "prod": "webpack --config build/webpack.prod.conf.js"
+  },
+  "keywords": [
+    "Simple",
+    "CV"
+  ],
+  "author": "Simple",
+  "license": "ISC",
+  "devDependencies": {
+    "art-template-loader": "^1.4.3",
+    "clean-webpack-plugin": "^1.0.1",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "babel-polyfill": "^6.26.0",
+    "fullpage.js": "^2.9.6",
+    "jquery": "^3.3.1",
+    "swiper": "^4.4.6"
+  }
+}

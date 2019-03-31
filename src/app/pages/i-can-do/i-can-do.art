@@ -1,0 +1,61 @@
+      <h1>What I can do?</h1>
+      <ul class="icando-container">
+        <li class="icando-box">
+          <div class="target-border">
+            <div class="target-dot"></div>
+          </div>
+          <a href="https://www.desaysv.com/" class="title">希望本简历能展示我会的技术如下:</a>
+          <div class="tech-list big-screen">
+            <a  href="./static/pdf/CV.pdf">webpack</a>、
+            <a  href="./static/pdf/CV.pdf">性能优化</a>、
+            <a  href="./static/pdf/CV.pdf">nodejs koa2</a>、
+            <a  href="./static/pdf/CV.pdf">typescript</a>、
+            <a  href="./static/pdf/CV.pdf">scss</a>、
+            <a  href="./static/pdf/CV.pdf">docker & DockerFile</a>、
+            <a  href="./static/pdf/CV.pdf">nginx</a>
+          </div>
+          <ul class="description big-screen">
+            <li>
+              <a href="./static/pdf/CV.pdf">webpack</a>: 纯手工搭建 webpack 前端工程,实现编译打包 scss 并自动处理 css 前缀、typescript、图片、字体、并实现页面实时刷新等;
+              <div>实现代码模块分割,将第三方库、css、异步模块分别打包成单独的 chunk 并以 chunkhash 命名,从而有利于缓存优化</div>
+            </li>
+            <li><a >ts</a>: 熟悉 typescript 面向对象思想</li>
+            <li>使用轻量级前端模板引擎: art-template</li>
+            <li>
+              <a href="./static/pdf/CV.pdf">性能优化</a>: 配置 nginx 缓存策略
+              <div>1) 设置css、js以及图片等资源的cache-control</div>
+              <div>2) 对css、js以及json等文本资源进行gzip压缩</div>
+              <div>3) 通过http_accept判断浏览器是否支持webp,若支持,将返回webp格式的图片</div>
+            </li>
+            <li><a href="./static/pdf/CV.pdf">后端开发</a>: 有后端开发及数据库设计能力,本简历后端采用 nodejs koa2 (熟悉koa2源码以及中间件思想)
+              <div>设计 resful api 接口以及相关中间件,定制统一接口规范以及统一出错处理,单元测试等</div>
+            </li>
+            <li>
+              <a href="./static/pdf/CV.pdf">docker部署</a>: 有 linux 部署能力,熟悉 linux 命令,本项目部署于 centos7,前端通过 docker + nginx 进行部署,后端通过 docker + node 进行部署。
+              并搭建了 nexus docker 私服,并将镜像备份于私服下,好处在于提高部署效率、方便版本恢复以及部署迁移。
+            </li>
+          </ul>
+
+          <ul class="description small-screen">
+            <li>
+              <a href="./static/pdf/CV.pdf">webpack</a>: 纯手工搭建 webpack 前端工程,实现编译打包 scss 并处理 css 前缀、typescript、图片、字体、并实现页面实时刷新等;
+              <div>实现代码模块分割,将第三方库、css、异步模块分别打包成单独的 chunk 并以 chunkhash 命名,从而有利于缓存优化</div>
+            </li>
+            <li><a >ts</a>: 熟悉 typescript 面向对象思想</li>
+            <li>使用轻量级前端模板引擎: art-template</li>
+            <li>
+              <a href="./static/pdf/CV.pdf">性能优化</a>: 配置 nginx 缓存策略,对静态资源设置缓存,对文本进行gzip压缩,检测浏览器是否支持webp,若支持,将图片替换成webp
+            </li>
+            <li><a href="./static/pdf/CV.pdf">docker部署</a>: 通过 docker + nginx 部署,并将镜像备份于 nexus docker 私服,好处在于提高部署效率、方便版本恢复以及部署迁移</li>
+            <li><a href="./static/pdf/CV.pdf">后端开发</a>: 有后端开发及数据库设计能力,本简历后端采用 nodejs koa2 (熟悉koa2源码以及中间件思想)
+              <div>设计 resful api 接口以及相关中间件,定制统一接口规范以及统一出错处理,对接口进行单元测试等</div>
+            </li>
+            <li>
+              <a href="./static/pdf/CV.pdf">docker部署</a>: 有 linux 部署能力,熟悉 linux 命令,本项目部署于 centos7,前端通过 docker + nginx 进行部署,后端通过 docker + node 进行部署。
+              并搭建了 nexus docker 私服,并将镜像备份于私服下,好处在于提高部署效率、方便版本恢复以及部署迁移。
+            </li>
+          </ul>
+          
+        </li>
+   
+      </ul>

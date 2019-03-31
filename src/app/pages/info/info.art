@@ -1,0 +1,18 @@
+      <div class="avatar"></div>
+      <div class="name-title">
+        <div class="name">陈旭东</div>
+        <div class="title">前端工程师</div>
+      </div>
+      <div class="my-blog">
+        <a  target="_blank" href=" https://simplecodecx.github.io/categories/">
+           个人博客
+        </a>
+      </div>
+      <ul class="contacts">
+        <a class="contact" target="_blank" href="https://github.com/SimpleCodeCX"><span class="icon icon-github"></span></a>
+        <a class="contact" target="_blank"><span class="icon icon-wechat"><span class="wechat-img"></span></span></a>
+        <a class="contact" target="_blank" href="mailto:248200851@qq.com"><span class="icon icon-envelop"></span></a>
+      
+      </ul>
+
+      <a href="./static/pdf/CV.pdf" class="pdf">Chen_Xudong_CV.pdf</a>

@@ -1,0 +1,124 @@
+.info {
+  .avatar {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.25rem $baby_powder, 0 0 0 0.25rem #999,
+      0 0.125rem 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+    margin: 1.5rem auto;
+    background: url("../../assets/images/Chen_Xudong.jpg") center;
+    background-size: cover;
+  }
+
+  .name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: $independence;
+  }
+
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $outer_space;
+    margin-top: 0.3rem;
+  }
+
+  .my-blog {
+    margin: auto;
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: $independence;
+    text-shadow: 0px 1px 1px $taupe_gray;
+    width: 200px;
+    text-decoration: underline;
+    @media screen and (max-width: $screen-phone) {
+      font-size: 1rem;
+      text-shadow: 0px 1px 1px $taupe_gray;
+    }
+  }
+
+  .my-blog:hover {
+    color: black;
+  }
+
+  .contacts {
+    color: $roman_silver;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-top: 1rem;
+
+    .contact {
+      display: inline-block;
+      position: relative;
+      @media screen and (max-width: $screen-phone) {
+        margin-right: 0.5rem;
+      }
+    }
+
+    .contact:hover {
+      color: black;
+    }
+
+    .icon-wechat {
+      .wechat-img {
+        display: none;
+      }
+
+      &:hover {
+        cursor: pointer;
+
+        .wechat-img {
+          position: absolute;
+          top: -5.1rem;
+          right: -1.75rem;
+          border: 1px solid red;
+          display: inline-block;
+          width: 4.5rem;
+          height: 4.5rem;
+          background: url("../../assets/images/wechat.png") no-repeat;
+          background-size: cover;
+          border: 0.1rem solid #000;
+
+          &::after,
+          &::before {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 0;
+          }
+
+          &:before {
+            bottom: -1rem;
+            right: 1.75rem;
+            border: 0.5rem transparent solid;
+            border-top-color: #000;
+          }
+
+          &::after {
+            bottom: -0.75rem;
+            right: 1.85rem;
+            border: 0.4rem transparent solid;
+            border-top-color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .pdf {
+    display: inline-block;
+    margin-top: 3rem;
+    font-size: 0.61rem;
+    color: $independence;
+    text-decoration: underline;
+    @media screen and (max-width: $screen-phone) {
+      font-size: 0.8rem;
+    }
+  }
+
+  .pdf:hover {
+    color: black;
+    font-weight: bolder;
+  }
+}
