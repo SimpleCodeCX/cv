@@ -4,7 +4,7 @@ import { SkillInfo } from '../../@dataSource';
  * console log my skill list
  */
 export function consoleSkills(skillList: Array<SkillInfo>) {
-  let conStr = '\n%cWhat I can do?%c   ( 项目地址：https://simplecodecx.github.io/ )\n\n';
+  let conStr = '\n%cWhat I can do?%c   ( 项目地址：https://github.com/SimpleCodeCX/cv & https://github.com/SimpleCodeCX/cv-server )\n\n';
   conStr += '**********************************************************\n';
   let conCss = ['color:red', 'color:black'];
   skillList.forEach(item => {
