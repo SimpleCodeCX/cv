@@ -4,12 +4,12 @@
         <div class="title">前端工程师</div>
       </div>
       <div class="my-blog">
-        <a  target="_blank" href=" https://simplecodecx.github.io/categories/">
+        <a  target="_blank" href="https://simplecodecx.github.io/archives/">
            个人博客
         </a>
       </div>
       <ul class="contacts">
-        <a class="contact" target="_blank" href="https://github.com/SimpleCodeCX"><span class="icon icon-github"></span></a>
+        <a class="contact" target="_blank" href="https://github.com/SimpleCodeCX/cv"><span class="icon icon-github"></span></a>
         <a class="contact" target="_blank"><span class="icon icon-wechat"><span class="wechat-img"></span></span></a>
         <a class="contact" target="_blank" href="mailto:248200851@qq.com"><span class="icon icon-envelop"></span></a>
       
