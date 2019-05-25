@@ -4,6 +4,9 @@ const template = require('art-template/lib/template-web');
 // page: My infomation
 import './pages/info/info';
 
+// page: My education
+import './pages/education/education';
+
 // page: what i can do 
 import './pages/i-can-do/i-can-do';
 
