@@ -36,6 +36,12 @@
       color: $outer_space;
       min-height: 1.67rem;
       line-height: 1.67rem;
+      .big-screen {
+        display: inline;
+      }
+      .small-screen {
+        display: none;
+      }
     }
     .tech-list {
       margin-top: 0.2rem;
@@ -49,12 +55,7 @@
         color: black;
       }
     }
-    .big-screen {
-      display: block;
-    }
-    .small-screen {
-      display: none;
-    }
+
     .description {
       list-style: initial;
       margin-top: 0.4rem;
@@ -92,6 +93,12 @@
           position: absolute;
           left: -1.2rem;
           content: "-";
+        }
+        .big-screen {
+          display: none;
+        }
+        .small-screen {
+          display: inline;
         }
       }
       .big-screen {

@@ -4,7 +4,11 @@
           <div class="target-border">
             <div class="target-dot"></div>
           </div>
-          <a href="https://www.desaysv.com/" class="title">希望本简历能展示我会的技术如下:</a>
+          <a href="https://github.com/SimpleCodeCX/cv" target="blank" class="title">
+            本简历采用如下技术实现
+            <span class="big-screen">(点击对应github代码)</span>
+            <span class="small-screen">(点击看代码)</span>:
+          </a>
           <div class="tech-list big-screen">
             <a  href="https://github.com/SimpleCodeCX/cv/tree/master/build" target="blank">webpack</a>、
             <a  href="https://github.com/SimpleCodeCX/cv/blob/master/nginx/default.conf" target="blank" >性能优化</a>、
