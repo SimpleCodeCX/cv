@@ -43,6 +43,12 @@
         display: none;
       }
     }
+    .big-screen {
+      display: block;
+    }
+    .small-screen {
+      display: none;
+    }
     .tech-list {
       margin-top: 0.2rem;
       font-size: 0.6rem;
