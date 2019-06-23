@@ -47,8 +47,8 @@ const prodWebpackConfig = merge(baseWebpackConfig, {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "[id].[name].[chunkhash:8].css",
-      chunkFilename: "[id].[name].[chunkhash:8].css"
+      filename: "[id].[name].[contenthash:8].css",
+      chunkFilename: "[id].[name].[contenthash:8].css"
     })
   ]
 });

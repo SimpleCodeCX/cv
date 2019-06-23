@@ -30,7 +30,7 @@ module.exports = {
             loader: 'url-loader',
             options: {
               limit: 8192, // size <= 8KB
-              name: '[name].[hash].[ext]', // 属于file-loader的属性
+              name: '[name].[hash:8].[ext]', // 属于file-loader的属性
               publicPath: "imgs/",  // 属于file-loader的属性
               outputPath: "imgs/"  // 属于file-loader的属性
             }
