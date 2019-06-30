@@ -22,8 +22,9 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         test: /\.(sa|sc|c)ss$/,
         use: [
           "style-loader",
-          "css-loader", // 将 CSS 转化成 js 模块
-          "sass-loader" // 将 Sass/Scss 编译成 CSS
+          "css-loader", // 将 css 转化成 js 模块
+          'postcss-loader', // 处理 css 前缀
+          "sass-loader" // 将 Sass/Scss 编译成 css
         ]
       }
     ]
