@@ -27,8 +27,8 @@
             <li>使用轻量级前端模板引擎: art-template</li>
             <li>
               <a href="https://github.com/SimpleCodeCX/cv/blob/master/nginx/default.conf" target="blank">性能优化</a>: 配置 nginx 性能优化策略如下:
-              <div>1) 对 css、js 以及图片等资源, 配置 cache-control max-age 为长缓存</div>
-              <div>2) 对 css、js 以及 json 等文本资源进行gzip压缩</div>
+              <div>1) 对 css、js 以及图片等资源,以 hashChunk 命名并配置 cache-control 缓存时间为长缓存</div>
+              <div>2) 对 css、js 以及 json 等文本资源进行 gzip 压缩，并开启 http1.1 实现 http 长连接并边压缩边输出</div>
               <div>3) 对于图片资源,通过 http_accept 判断浏览器是否支持 webp ,若支持,则返回 webp 格式的图片</div>
             </li>
             <li><a href="https://github.com/SimpleCodeCX/cv-server" target="blank">后端开发</a>: 有后端开发和部署能力,本简历后端采用 nodejs koa2 (阅读过koa2源码)

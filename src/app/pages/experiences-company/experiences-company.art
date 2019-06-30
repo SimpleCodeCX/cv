@@ -4,7 +4,7 @@
           <div class="target-border">
             <div class="target-dot"></div>
           </div>
-          <a href="https://www.desaysv.com/" class="company">德赛西威</a>
+          <a href="https://www.desaysv.com/" target="blank" class="company">德赛西威</a>
           <span class="job ">前端(兼后端)工程师</span>
           <span class="time ">2017.03 - 至今 (两年)</span>
           <div class="tech-list big-screen">@Angular , typescript , Node , 性能优化 , nginx , docker , 微信小程序</div>
