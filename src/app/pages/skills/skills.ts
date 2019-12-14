@@ -1,8 +1,7 @@
 declare var require;
 
-let skillValueList = ['@Angular', 'Webpack', '性能优化', 'Node/Koa2', 'Restful', 'HTTP', 'Nginx',
-  'Docker', 'Git', 'SCSS', 'Rxjs', 'ES5/6/7', 'Gulp',
-  'Linux'];
+let skillValueList = ['@Angular', 'React', 'Webpack', '性能优化', 'Node/Koa2', 'Restful', 'Nginx',
+  'Docker', 'Git', 'SCSS', 'Linux'];
 
 const skillsArt = require('./skills.art');
 const skillsHtml = skillsArt({ skillList: skillValueList });
@@ -14,8 +13,14 @@ setTimeout(async () => {
   const consoleHelper = await import('./console.helper');
 
   const skillListServer = await skillService.getAllSkill();
+
+  skillValueList = skillListServer && skillListServer.map(item => item['skillValue']) || skillValueList;
+
+  const skillsHtml = skillsArt({ skillList: skillValueList });
+  // document.getElementById('skills').innerHTML = skillsHtml;
+
   // 控制台打印我的 skill list
-  consoleHelper.consoleSkills(skillListServer);
+  skillListServer && consoleHelper.consoleSkills(skillListServer);
 
 }, 1000);
 

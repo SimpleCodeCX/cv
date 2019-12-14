@@ -15,4 +15,6 @@
       
       </ul>
 
-      <a href="./static/pdf/CV.pdf" target="_blank"  class="pdf">Chen_Xudong_CV.pdf</a>
+      <div class="pdf-box">pdf简历: <a href="./static/pdf/CV.pdf" target="_blank"  class="pdf">Chen_Xudong_CV.pdf</a></div>
+      <div class="photo-number">联系方式: <span>15767973362</span></div>
+      <div class="photo-number">邮箱: <span>248200851@qq.com</span></div>
