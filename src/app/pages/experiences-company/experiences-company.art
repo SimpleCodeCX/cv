@@ -11,10 +11,10 @@
           <ul class="description big-screen">
             <li>前端(车联网数据云平台)
               <div>
-              1) 基于 <span>@angular</span> + <span>typescript(面向对象)</span> + <span>rxjs</span> 技术栈对车联网数据云平台进行前端开发
+              1) 基于 <span>@angular</span> + <span>typescript(面向对象)</span> 技术栈对车联网数据云平台进行前端开发
               </div>
               <div>
-              2) 通过 angular 的依赖注入 + apitree + rxjs 实现了对 api <span>数据接口进行统一封装</span>,使接口模块多系统复用,降低了接口维护成本,规范了整个开发流程,提高了开发效率
+              2) 设计并实现了<span>数据接口统一封装</span>,使接口模块多系统复用,降低了接口维护成本,规范了整个开发流程,提高了开发效率
               </div>
               <div>
               3) 性能优化,配置 nginx 性能优化策略如下:
@@ -55,10 +55,7 @@
               4) 通过 nexus 搭建 npm 私服及<span>docker私服</span>并把后台及后端项目部署于<span>docker</span>,降低项目部署成本以及版本恢复成本
               </div> 
               <div>
-              5) 搭建了<span>elk后台监控上报系统</span>,对后端系统进行实时监控
-              </div> 
-              <div>
-              6) 积极推动项目流程优化,能够及时发现项目痛点并落地解决方案
+              5) 积极推动项目流程优化,能够及时发现项目痛点并落地解决方案
               </div> 
             </li>
           </ul>
@@ -66,10 +63,10 @@
           <ul class="description small-screen">
             <li>前端(车联网数据云平台)
               <div>
-              1) 基于 <span>@angular</span> + <span>typescript</span> + <span>rxjs</span> 技术栈对车联网数据云平台进行前端开发
+              1) 基于 <span>@angular</span> + <span>typescript</span> 技术栈对车联网数据云平台进行前端开发
               </div>
               <div>
-              2) 通过 angular 的依赖注入 + apitree + rxjs 实现了对 api <span>数据接口进行统一封装</span>,使接口模块多系统复用,降低了接口维护成本,规范了整个开发流程,提高了开发效率
+              2) 设计并实现了<span>数据接口统一封装</span>,使接口模块多系统复用,降低了接口维护成本,规范了整个开发流程,提高了开发效率
               </div>
               <div>
               3) 通过 nginx 对项目进行相关的性能优化：<span>gzip</span> , <span>缓存</span> , <span>webp</span> 等,使项目的首屏时间从<span>4秒</span>降低至<span>1秒</span>以下
@@ -93,10 +90,7 @@
               4) 通过nexus搭建npm私服及<span>docker私服</span>并把后台及后端项目部署于<span>docker</span>,降低项目部署成本以及版本恢复成本
               </div> 
               <div>
-              5) 搭建了<span>elk后台监控上报系统</span>,对后端系统进行实时监控
-              </div> 
-              <div>
-              6) 积极推动项目流程优化,能够及时发现项目痛点并落地解决方案
+              5) 积极推动项目流程优化,能够及时发现项目痛点并落地解决方案
               </div> 
             </li>
           </ul>

@@ -1,7 +1,7 @@
 declare var require;
 
-let skillValueList = ['@Angular', 'React', 'Webpack', '性能优化', 'Node/Koa2', 'Restful', 'Nginx',
-  'Docker', 'Git', 'SCSS', 'Linux'];
+let skillValueList = ['扎实的javascript基础', 'React(阅读过相关源码)', 'Node/Koa2(阅读过源码)', 'Webpack', 'typescript', '性能优化', 'Restful', 'Nginx',
+  'Docker', 'Git', 'SCSS'];
 
 const skillsArt = require('./skills.art');
 const skillsHtml = skillsArt({ skillList: skillValueList });
