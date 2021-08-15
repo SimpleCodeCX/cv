@@ -1,0 +1,37 @@
+      <h1>工作经历1</h1>
+      <ul class="works">
+        <li class="work">
+          <div class="target-border">
+            <div class="target-dot"></div>
+          </div>
+          <a href="https://www.desaysv.com/" target="blank" class="company">阿里巴巴</a>
+          <span class="job ">前端(兼后端)工程师</span>
+          <span class="time ">2020.06 - 至今</span>
+          <div class="tech-list">React , Typescript , Node </div>
+          <ul class="description">
+            <li>前端：参与国际化活动中台(简称GCP)的开发
+              <div>
+              负责国际化活动中台源码搭建业务的前端开发，实现了不同业务（AliExpress、Lazada、Daraz、香港）的 定制化需求，支持了各个bu的业务的快速落地等。
+              </div>
+            </li>
+            <div class="div-black"></div>
+            <li>后端：负责国际化中台页面搭建系统（nodejs）
+              <div>
+                国际化中台页面搭建系统提供了国际化、泛流量场的搭建解决方案，支持了各个跨境电商平台的大促及日促的高效页面搭建。
+              </div>
+              <div>
+                1）负责国际化中台的页面搭建业务，分析老系统存在的问题，并对老系统进行了重构，从0到1设计并开发了一套搭建系统
+              </div>
+              <div>
+                2) 设计了一套灵活的系统架构，定义了稳定的领域模型、标准的统一错误码、清晰的日志追踪机制，对底层抹平了不同依赖 系统的差异，对外提供稳定且通用的服务层)
+              </div>
+              <div>
+                3) 快速支持了各个业务在618、双十一、双十二对页面搭建的需求定制，赋能业务拿到结果
+              </div> 
+              <div>
+                4) 提供了开箱即用的能力，快速且低成本的支持了天猫香港和f1电商平台的开站，节省了大量的人日
+              </div> 
+            </li>
+          </ul>
+        </li>
+      </ul>
